@@ -124,11 +124,6 @@ Light:
   m_CorrespondingSourceObject: {fileID: 7773037130566881568, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
   m_PrefabInstance: {fileID: 1603612286}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &428196953 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-  m_PrefabInstance: {fileID: 1603612286}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &478707535
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +246,6 @@ GameObject:
   - component: {fileID: 763968789}
   - component: {fileID: 763968788}
   - component: {fileID: 763968793}
-  - component: {fileID: 763968794}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -334,12 +328,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763968787}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06532567, y: 0.82816327, z: -0.098752484, w: 0.5478376}
-  m_LocalPosition: {x: -14.29, y: 5.53, z: 13.3}
+  m_LocalRotation: {x: 0.056470238, y: 0.8727591, z: -0.10407022, w: 0.47357377}
+  m_LocalPosition: {x: -11.763381, y: 5.53, z: 15.579377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 428196953}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 13.6, y: 113.03, z: 0}
 --- !u!114 &763968793
 MonoBehaviour:
@@ -385,22 +379,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &763968794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763968787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f239230ded093fa479c682dc46324f43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransform: {fileID: 428196953}
-  offset: {x: -14.29, y: 5.53, z: 13.3}
-  followSpeed: 5
-  rotateSpeed: 5
 --- !u!82 &1485202668 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6872606602875162235, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
@@ -682,10 +660,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 1488905389778135893, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
     - {fileID: 3812102278584239831, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 763968792}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
 --- !u!108 &1691056784 stripped
@@ -953,3 +928,4 @@ SceneRoots:
   - {fileID: 1917577708}
   - {fileID: 1862430538}
   - {fileID: 1603612286}
+  - {fileID: 763968792}

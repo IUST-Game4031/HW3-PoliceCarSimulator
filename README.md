@@ -50,7 +50,7 @@ Welcome to the **Police Car Controller** project! This Unity-based simulation al
 ---
 
 ## 📷 Screenshots
-*(Add a few in-game screenshots here, showing the police car in action with headlights and siren lights)*
+![Game scene](img/scn.png)
 
 ---
 
